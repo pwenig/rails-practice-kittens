@@ -1,0 +1,7 @@
+<h2>Categorize</h2>
+
+<%= form_for [@kitten, @categorization]  do |t| %>
+
+<%= t.collection_select :category_id, Category.order(:name), :id, :name, prompt: true %>
+<%= t.submit "Add Category" %>
+<% end %>
