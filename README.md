@@ -22,6 +22,7 @@ You have kittens.  You have categories.  You *must* categorize kittens.
 When I click on the image of a kitten
 Then I should see a form where I can add a category to a kitten
 And when I select a category and click "Add Category"
+
 Then I should see the category appear underneath the kitten
 And categories should appear in alphabetical order
 ```
